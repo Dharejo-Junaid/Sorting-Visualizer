@@ -2,7 +2,7 @@ import javax.swing.*;
 
 public class Main {
     public static void main(String[] args) throws Exception {
-        UIManager.setLookAndFeel("javax.swing.plaf.nimbus.NimbusLookAndFeel");
+        UIManager.setLookAndFeel("javax.swing.plaf.metal.MetalLookAndFeel");
         new LaunchFrame();
     }
 }
